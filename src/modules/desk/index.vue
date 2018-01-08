@@ -2,13 +2,14 @@
     <div>
        <van-row v-for="(one, index) in deskMenuList" :key="index" class="menu_row">
             <van-col span="8">
-                <!--icon add-->
+                <icon :iconname="one.icon"></icon>
                 <router-link :to="one.url">{{one.name}}</router-link>
             </van-col>
             <van-col span="16">
                 >
             </van-col>
         </van-row>
+
         <router-view></router-view>
     </div>
 </template>

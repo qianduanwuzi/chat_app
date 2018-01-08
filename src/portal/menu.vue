@@ -2,6 +2,7 @@
         <van-row class="bottom_menu">
             <van-col v-for="(one, index) in menuList" :key="index" span="6">
                 <!--icon add-->
+                <icon :iconname="one.icon"></icon>
                 <router-link :to="one.url">{{one.name}}</router-link>
             </van-col>
         </van-row>

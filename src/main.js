@@ -5,8 +5,16 @@ import App from './App'
 import router from './router'
 import Vant from 'vant';
 import 'vant/lib/vant-css/index.css';
+import components from "./config/components.js"
 
 Vue.use(Vant);
+
+// 全局注册组件
+for(let i in components){
+  let one = components[i];
+  Vue.component(one.name, one.instance)
+}
+
 Vue.config.productionTip = false;
 /* eslint-disable no-new */
 new Vue({

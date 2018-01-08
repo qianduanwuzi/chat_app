@@ -1,11 +1,15 @@
 <template>
-    <div class="item_container">
+    <div>
+        <!--top banner-->
+        <top-banner></top-banner>
+        <!--child comp-->
         <router-view></router-view>
         <!--bottom menu-->
         <menus></menus>
     </div>
 </template>
 <script>
+import topBanner from "@/portal/topBanner"
 import menus from "@/portal/menu.vue"
 export default {
     name: 'main-view',
@@ -19,12 +23,10 @@ export default {
 
     },
     components: {
-        menus
+        menus, topBanner
     }
 }
 </script>
 <style scoped>
-.item_container{
-    /*background-color: rgb(245, 245, 245)*/
-}
+
 </style>

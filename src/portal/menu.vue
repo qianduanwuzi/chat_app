@@ -8,12 +8,12 @@
         </van-row>
 </template>
 <script>
-import menuList from "@/portal/menu.js"
+import {menuList} from "@/portal/menu.js"
 export default {
-    name: 'menu',
+    name: 'bottom-menu',
     data: function() {
         return {
-            menuList: menuList
+            menuList,
         }
     },
     computed: {

@@ -7,7 +7,6 @@
 export default {
   data: function(){
       return{
-          iconCss,
       }
   },
   props:{
@@ -34,7 +33,7 @@ font-family: "iconfont";
 
 .iconfont {
   font-family:"iconfont" !important;
-  font-size:16px;
+  font-size:1.6rem;
   font-style:normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

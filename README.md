@@ -1,6 +1,6 @@
 # chatapp
 
-> A Vue.js project
+> A Vue.js project 移动端模仿微信响应式布局（vue-cli + vant）
 
 ## Build Setup
 

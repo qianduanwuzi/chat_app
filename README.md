@@ -2,6 +2,9 @@
 
 > A Vue.js project 移动端模仿微信响应式布局（vue-cli + vant）
 
+# view
+ ![image](https://github.com/qianduanwuzi/img/blob/master/gif/chat.gif)
+
 ## Build Setup
 
 ``` bash
